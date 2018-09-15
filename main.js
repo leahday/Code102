@@ -56,3 +56,34 @@ if( m !=45 || aColor == "red" ){
     console.log("will this print");
 }
 
+//If - Else Statements 
+let speed = 50;
+
+if (speed < 30) {
+    console.log("not ticket");
+}
+//This one will only show from 30-40
+else if (speed <=40) {
+    console.log("50 dollar fine!");
+}
+else {
+    console.log("100 dollar fine!");
+}
+//In if-else, once a true is realized it won't continue reading the following statements 
+
+//Pop-Up Windows 
+//Prompt
+let pro = prompt ("Are you interested in viewing this profile?");
+console.log(pro)
+//when a user inputs an answer the value of "prompt" will now be their answer
+
+//Confirm 
+//provides a message pop up, often after the prompt code
+let con = confirm ("Thank you for your response")
+console.log(con);
+
+//Alert 
+let al = alert ("You are proceeding to the website, contact information provided by request.");
+console.log(al)
+
+

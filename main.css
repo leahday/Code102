@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: lightblue;
 }
 
 #title {
@@ -7,13 +7,14 @@ body {
 }
 
 .hour {
-    color: blue;
+    color: maroon;
 }
 
 p { 
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
 }
+
 .hourTitle {
     font-weight: bold;
 }
