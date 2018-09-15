@@ -1,13 +1,17 @@
 body {
-    background-color: lightblue;
+    background-color: lightcyan;
 }
 
 #title {
-    color: purple;
+    text-align: center;
+    color: rgb(62, 4, 104);
 }
 
-.hour {
-    color: maroon;
+#subtitle {
+    text-align: center;
+}
+.list {
+    color: darkslategray;
 }
 
 p { 

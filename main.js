@@ -73,17 +73,21 @@ else {
 
 //Pop-Up Windows 
 //Prompt
-let pro = prompt ("Are you interested in viewing this profile?");
-console.log(pro)
+let question = prompt ("Are you interested in viewing this profile?");
+if (question == "yes"){
+    let con = confirm ("You are proceeding to the website, contact information provided by request.")
+}
+else {
+    question = alert ("You have found the wrong page.")
+}
+console.log(question)
 //when a user inputs an answer the value of "prompt" will now be their answer
 
 //Confirm 
 //provides a message pop up, often after the prompt code
-let con = confirm ("Thank you for your response")
-console.log(con);
 
 //Alert 
-let al = alert ("You are proceeding to the website, contact information provided by request.");
-console.log(al)
+//similar to a confirm but doesn't have two options, you can only click "okay"
+
 
 
