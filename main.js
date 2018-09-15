@@ -87,7 +87,5 @@ console.log(question)
 //provides a message pop up, often after the prompt code
 
 //Alert 
-//similar to a confirm but doesn't have two options, you can only click "okay"
-
-
+//similar to a confirm but doesn't have two options, you can only click "okayr users Ilse Reijs and Jan-Noud Hutten" width="500" height="333">
 
