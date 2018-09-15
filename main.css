@@ -13,7 +13,9 @@ body {
 .list {
     color: darkslategray;
 }
-
+#picture {
+    float: right
+}
 p { 
     font-size: 24px;
     text-align: center;
